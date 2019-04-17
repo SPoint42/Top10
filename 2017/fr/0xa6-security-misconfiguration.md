@@ -1,4 +1,4 @@
-# A6:2017 Mauvaise configuration de Sécurité
+# A6:2017 Mauvaise configuration de sécurité
 
 | Agents de menace/Vecteurs d'attaque | Vulnérabilité de Sécuité           | Impacts               |
 | -- | -- | -- |
