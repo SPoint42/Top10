@@ -10,8 +10,8 @@ so on, but it's not in itself sufficient.
 
 Many Application Security (AppSec) programs try to run before they can
 crawl or walk. These efforts are doomed to failure. We strongly
-encourage CISOs and AppSec leadership to use OWASP Software Assurance
-Maturity Model (SAMM) \[<https://owaspsamm.org>\] to identify weaknesses
+encourage CISOs and AppSec leadership to use [OWASP Software Assurance
+Maturity Model (SAMM)](https://owaspsamm.org) to identify weaknesses
 and areas for improvement over a 1-3 year period. The first step is to
 evaluate where you are now, identify the gaps in governance, design,
 implementation, verification, and operations you need to resolve
@@ -69,10 +69,10 @@ adopt the paved road component quickly.
 Paved road components should address a significant issue with the OWASP
 Top 10, for example, how to automatically detect or fix vulnerable
 components, or a static code analysis IDE plugin to detect injections or
-even better a library that is known safe against injection, such as
-React or Vue. The more of these secure drop-in replacements provided to
-teams, the better. A vital task of the appsec team is to ensure that the
-security of these components is continuously evaluated and improved.
+even better start using a library that is known safe against injection.
+The more of these secure drop-in replacements provided to teams, the better.
+A vital task of the appsec team is to ensure that the security of these
+components is continuously evaluated and improved.
 Once they are improved, some form of communication pathway with
 consumers of the component should indicate that an upgrade should occur,
 preferably automatically, but if not, as least highlighted on a
