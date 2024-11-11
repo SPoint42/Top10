@@ -27,7 +27,7 @@ There are three new categories, four categories with naming and scoping changes,
 
 ## Methodology
 
-This installment of the Top 10 is more data-driven than ever but not blindly data-driven. We selected eight of the ten categories from contributed data and two categories from the Top 10 community survey at a high level. We do this for a fundamental reason, looking at the contributed data is looking into the past. AppSec researchers take time to find new vulnerabilities and new ways to test for them. It takes time to integrate these tests into tools and processes. By the time we can reliably test a weakness at scale, years have likely passed. To balance that view, we use an community survey to ask application security and development experts on the front lines what they see as essential weaknesses that the data may not show yet.
+This installment of the Top 10 is more data-driven than ever but not blindly data-driven. We selected eight of the ten categories from contributed data and two categories from the Top 10 community survey at a high level. We do this for a fundamental reason, looking at the contributed data is looking into the past. AppSec researchers take time to find new vulnerabilities and new ways to test for them. It takes time to integrate these tests into tools and processes. By the time we can reliably test a weakness at scale, years have likely passed. To balance that view, we use a community survey to ask application security and development experts on the front lines what they see as essential weaknesses that the data may not show yet.
 
 There are a few critical changes that we adopted to continue to mature the Top 10.
 
@@ -111,6 +111,8 @@ The following organizations (along with some anonymous donors) kindly donated da
 
 ## Thank you to our sponsor
 
-The OWASP Top 10 2021 team gratefully acknowledge the financial support of Secure Code Warrior.
+The OWASP Top 10 2021 team gratefully acknowledge the financial support of Secure Code Warrior and Just Eat.
 
-[![Secure Code Warrior](assets/securecodewarrior.png){: style="height:80px" align="left"}](https://securecodewarrior.com)
+[![Secure Code Warrior](assets/securecodewarrior.png){ width="256" }](https://securecodewarrior.com)    
+
+[![Just Eats](assets/JustEat.png){ width="256" }](https://www.just-eat.co.uk/)

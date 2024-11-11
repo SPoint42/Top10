@@ -38,11 +38,11 @@
 
 ## 參考文獻
 
--   \[OWASP Cheat Sheet: Secure Design Principles\] (TBD)
+-   [OWASP Cheat Sheet: Secure Design Principles](https://cheatsheetseries.owasp.org/cheatsheets/Secure_Product_Design_Cheat_Sheet.html)
 
 -   NIST – Guidelines on Minimum Standards for Developer Verification of
     > Software  
-    > https://www.nist.gov/system/files/documents/2021/07/09/Developer%20Verification%20of%20Software.pdf
+    > https://www.nist.gov/publications/guidelines-minimum-standards-developer-verification-software
 
 ## 對應的 CWEs 清單
 

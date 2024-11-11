@@ -9,7 +9,7 @@
 ## Overview
 
 Injection slides down to the third position. 94% of the applications
-were tested for some form of injection with a max incidence rate of 19%, an average incidence rate of 3%, and 274k occurances. Notable Common Weakness Enumerations (CWEs) included are
+were tested for some form of injection with a max incidence rate of 19%, an average incidence rate of 3%, and 274k occurrences. Notable Common Weakness Enumerations (CWEs) included are
 *CWE-79: Cross-site Scripting*, *CWE-89: SQL Injection*, and *CWE-73:
 External Control of File Name or Path*.
 
@@ -52,7 +52,7 @@ Preventing injection requires keeping data separate from commands and queries:
     SQL injection if PL/SQL or T-SQL concatenates queries and data or
     executes hostile data with EXECUTE IMMEDIATE or exec().
 
--   Use positive or "whitelist" server-side input validation. This is
+-   Use positive server-side input validation. This is
     not a complete defense as many applications require special
     characters, such as text areas or APIs for mobile applications.
 
@@ -81,9 +81,9 @@ Language (HQL)):
 ```
 
 In both cases, the attacker modifies the ‘id’ parameter value in their
-browser to send: ‘ or ‘1’=’1. For example:
+browser to send: ' UNION SLEEP(10);--. For example:
 ```
- http://example.com/app/accountView?id=' or '1'='1
+ http://example.com/app/accountView?id=' UNION SELECT SLEEP(10);--
 ```
 
 This changes the meaning of both queries to return all the records from
@@ -183,4 +183,4 @@ Downstream Component ('Injection')](https://cwe.mitre.org/data/definitions/74.ht
 
 [CWE-652 Improper Neutralization of Data within XQuery Expressions ('XQuery Injection')](https://cwe.mitre.org/data/definitions/652.html)
 
-[CWE-917 Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')] (https://cwe.mitre.org/data/definitions/917.html)
+[CWE-917 Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')](https://cwe.mitre.org/data/definitions/917.html)
